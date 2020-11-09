@@ -9,7 +9,7 @@ pkg_name = "torch"
 pkg_ver = "{{GENERATE_TORCH_PKG_VER}}"
 torch_download_url = "https://download.pytorch.org/whl/torch_stable.html"
 
-python_min_version = (3, 6, 1)
+python_min_version = (3, 6, 2)
 python_min_version_str = '.'.join((str(num) for num in python_min_version))
 
 install_requires = [
